@@ -16,3 +16,8 @@ export(check.test.args, compareLists, getOverlap, OrderedList, overlap,
        print.shuffledRandomScores, scoreOrderComparison,
        scoreOrderComparisonBoth, scoreRankings, shuffledRandomScores, test.fc,
        test.t, test.z)
+
+S3method(plot, OrderedList)
+S3method(plot, listComparison)
+S3method(plot, shuffledRandomScores)
+S3method(plot, listComparisonOverlap)
