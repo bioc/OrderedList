@@ -152,8 +152,9 @@ OrderedList <- function(eset, B=1000, test="z", beta=1, percent=0.95, verbose=TR
 
   ### store comparison label
 
-  pdata <- pData(eset)
-  x <- levels(pdata$dataset)
+    pdata <- pData(eset)
+    pdata$dataset <- factor(pdata$dataset)
+    x <- levels(pdata$dataset)
   label <- paste(x[1],x[2],sep="~")
 
   ### prepare input data
