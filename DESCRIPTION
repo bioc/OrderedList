@@ -12,6 +12,6 @@ Maintainer: Claudio Lottaz <Claudio.Lottaz@klinik.uni-regensburg.de>
 Depends: R (>= 3.6.1), Biobase, twilight
 Imports: methods
 LazyLoad: yes
-URL: http://compdiag.molgen.mpg.de/software/index.shtml
+URL: http://compdiag.molgen.mpg.de/software/OrderedList.shtml
 License: GPL (>= 2)
 biocViews: Microarray, DifferentialExpression, MultipleComparison
