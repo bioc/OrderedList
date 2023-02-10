@@ -36,7 +36,7 @@ scoreRankings(r1, r2, nn, bases, two.sided=TRUE)
   where \eqn{r1/r2} are the ranks of genes in \eqn{L1/L2}. Since this is a finite geometric series, it can be used to speed up computation of our score:
 
   \deqn{score_i = (exp(-alpha min(r1[i],r2[i])) - exp(-alpha n))/(1 - exp(-alpha))}
-  \deqn{score = sum_(i|r1[i]<n&r2[i]<n) score_i}
+  \deqn{score = sum_(i|r1[i]<n \land r2[i]<n) score_i}{score = sum_(i|r1[i]<n & r2[i]<n) score_i}
 
   Analogue computations are performed by \code{scoreRankings} for list 
   begins and list ends.
